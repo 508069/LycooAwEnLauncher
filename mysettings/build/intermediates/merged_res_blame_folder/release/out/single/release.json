@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_touch_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\touch_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\navigation_nav_graph.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_input_language_settings.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\input_language_settings.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_device_info_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\device_info_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_device_info_status.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\device_info_status.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_input_setting.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\input_setting.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_settings_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\settings_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_storage_volume.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\storage_volume.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_reset_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\reset_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable_ic_menu_3d_globe.png.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable\\ic_menu_3d_globe.png"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_inputandlanguage.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\inputandlanguage.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_app_list.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\app_list.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_wifi_signal_2.png.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable-v24\\ic_wifi_signal_2.png"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_storage_setting.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\storage_setting.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_activity_display.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_list_item_wifi.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\list_item_wifi.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_date_time_prefs.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\date_time_prefs.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_wifi_signal_3.png.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable-v24\\ic_wifi_signal_3.png"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_wifiinfo_dialog.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\wifiinfo_dialog.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_language_setting.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\language_setting.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_sound_settings_activity.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\sound_settings_activity.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable_my_selector.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable\\my_selector.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_device_admin_receiver.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\device_admin_receiver.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_time_zone_prefs.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\time_zone_prefs.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_wifiinfo.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\wifiinfo.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_wifi_signal_1.png.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\drawable-v24\\ic_wifi_signal_1.png"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_display_settings.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\display_settings.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_sound_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\sound_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\xml_app_preferences.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\xml\\app_preferences.xml"
+    },
+    {
+        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\res\\merged\\release\\layout_activity_wifi.xml.flat",
+        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_wifi.xml"
+    }
+]

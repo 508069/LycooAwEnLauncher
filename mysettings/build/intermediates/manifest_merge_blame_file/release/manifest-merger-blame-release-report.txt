@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mysettings"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="22" />
+9-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+11-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:5-7:43
+11-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:22-75
+12    <uses-permission android:name="android.permission.SET_TIME" />
+12-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:5-9:43
+12-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+13-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:5-11:43
+13-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:22-69
+14    <uses-permission android:name="android.permission.FACTORY_RESET" />
+14-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:5-72
+14-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:22-69
+15    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" />
+15-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:5-14:43
+15-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:5-80
+16-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:22-77
+17    <uses-permission android:name="android.permission.REBOOT" />
+17-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:5-17:43
+17-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:22-62
+18    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+18-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:5-19:43
+18-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:22-75
+19    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+19-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:5-75
+19-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:22-72
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:5-79
+20-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:22-76
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:5-76
+21-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:22-73
+22    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+22-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:5-76
+22-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:22-73
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:5-79
+23-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:22-76
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:5-67
+24-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:22-64
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:5-80
+25-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:22-77
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:5-81
+26-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:22-78
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:5-75
+27-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:22-72
+28    <uses-permission android:name="android.permission.GET_TASKS" />
+28-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:5-68
+28-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:22-65
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:30:5-32:47
+29-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:31:9-57
+30    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+30-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:33:5-35:47
+30-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:34:9-63
+31    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+31-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:36:5-38:47
+31-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:37:9-64
+32    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+32-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-78
+32-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-75
+33    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+33-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-84
+33-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-81
+34
+35    <application
+35-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:40:5-92:19
+36        android:allowBackup="true"
+36-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:41:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] C:\Users\Administrator\.gradle\caches\transforms-3\9ed1396807356ba4fe1f073ff5df3ec3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:42:9-43
+39        android:label="@string/app_name"
+39-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:43:9-41
+40        android:supportsRtl="true"
+40-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:44:9-35
+41        android:theme="@style/Theme.LycooAwEnLauncher" >
+41-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:45:9-55
+42        <activity
+42-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:46:9-48:39
+43            android:name="com.example.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity"
+43-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:47:13-86
+44            android:exported="false" />
+44-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:48:13-37
+45        <activity
+45-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:49:9-51:39
+46            android:name="com.example.mysettings.settingDisplay.activity.DisplaySettingActivity"
+46-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:50:13-75
+47            android:exported="false" />
+47-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:51:13-37
+48        <activity
+48-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:52:9-54:39
+49            android:name="com.example.mysettings.settingStorage.activity.StorageSettingActivity"
+49-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:53:13-75
+50            android:exported="false" />
+50-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:54:13-37
+51        <activity
+51-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:55:9-57:39
+52            android:name="com.example.mysettings.settingWifi.activity.WifiActivity"
+52-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:56:13-62
+53            android:exported="false" />
+53-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:57:13-37
+54        <activity
+54-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:58:9-60:40
+55            android:name="com.example.mysettings.settingsApp.activity.AppDetailActivity"
+55-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:59:13-67
+56            android:exported="false" />
+56-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:60:13-37
+57        <activity
+57-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:61:9-63:40
+58            android:name="com.example.mysettings.settingsSound.activity.SoundSettingsActivity"
+58-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:62:13-73
+59            android:exported="false" />
+59-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:63:13-37
+60        <activity
+60-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:64:9-66:40
+61            android:name="com.example.mysettings.settingsSound.activity.TouchSoundActivity"
+61-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:65:13-70
+62            android:exported="false" />
+62-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:66:13-37
+63        <activity
+63-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:68:9-77:20
+64            android:name="com.example.mysettings.settingsMain.activity.MainActivity"
+64-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:69:13-63
+65            android:exported="true"
+65-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:70:13-36
+66            android:label="@string/app_name" >
+66-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:71:13-45
+67            <intent-filter>
+67-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:72:13-76:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:17-69
+68-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:17-77
+70-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <receiver
+74-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:79:9-91:20
+75            android:name="com.example.mysettings.settingsResetDevice.receiver.MyDeviceAdminReceiver"
+75-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:80:13-79
+76            android:description="@string/app_name"
+76-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:81:13-51
+77            android:label="@string/app_name"
+77-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:82:13-45
+78            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+78-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:83:13-70
+79            <meta-data
+79-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:84:13-86:65
+80                android:name="android.app.device_admin"
+80-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:85:17-56
+81                android:resource="@xml/device_admin_receiver" />
+81-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:86:17-62
+82
+83            <intent-filter>
+83-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:87:13-90:29
+84                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+84-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:17-82
+84-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:25-79
+85                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+85-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:17-83
+85-->D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:25-80
+86            </intent-filter>
+87        </receiver>
+88
+89        <activity
+89-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-19:86
+90            android:name="com.lycoo.commons.screensaver.ScreensaverImageActivity"
+90-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-82
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+91-->[:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-83
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+95            android:authorities="com.example.mysettings.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\b61691514a2fc32ca2546f6d7bffaffd\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\b61691514a2fc32ca2546f6d7bffaffd\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\b61691514a2fc32ca2546f6d7bffaffd\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+103        </provider>
+104
+105        <uses-library
+105-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+106            android:name="androidx.window.extensions"
+106-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+107            android:required="false" />
+107-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+108        <uses-library
+108-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+109            android:name="androidx.window.sidecar"
+109-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+110            android:required="false" />
+110-->[androidx.window:window:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bbf50e5d90fad407252032092bfba623\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+111    </application>
+112
+113</manifest>
