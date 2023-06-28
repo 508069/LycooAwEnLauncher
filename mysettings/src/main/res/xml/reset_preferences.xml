@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="reset_device"
+        android:title="恢复出厂设置" />
+
+    <Preference
+        android:key="recovery"
+        android:title="Recovery模式" />
+
+</PreferenceScreen>

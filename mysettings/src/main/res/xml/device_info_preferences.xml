@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+        app:allowDividerBelow="true"
+        android:key="system_update_settings"
+        android:title="系统更新">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="@string/additional_system_update"
+            android:targetClass="@string/additional_system_update_menu" />
+    </PreferenceScreen>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="status_info"
+        android:title="状态信息"
+        android:fragment="com.example.mysettings.settingsDeviceInfo.fragment.StatusFragment"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="device_model"
+        android:title="型号"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="device_storage"
+        android:title="存储"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="cpu_type"
+        android:title="处理器类型"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="firmware_version"
+        android:title="Android版本"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="software_version"
+        android:title="固件版本号"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="kernel_version"
+        android:title="内核版本"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="build_number"
+        android:title="版本号"
+        android:summary="未知"/>
+</PreferenceScreen>

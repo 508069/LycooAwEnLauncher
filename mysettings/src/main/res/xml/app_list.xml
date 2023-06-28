@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="preference_category_apps"
+        android:title="所有应用">
+    </PreferenceCategory>
+</PreferenceScreen>

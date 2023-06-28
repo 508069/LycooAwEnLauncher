@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="additional_system_update" translatable="false">com.softwinner.update</string>
+    <string name="additional_system_update_menu" translatable="false">com.softwinner.update.UpdateActivity</string>
+
+    <string name="additional_system_zone" translatable="false">com.softwinner.bionsettings.common</string>
+    <string name="additional_system_zone_picker" translatable="false">com.softwinner.bionsettings.common.ZonePicker</string>
+</resources>

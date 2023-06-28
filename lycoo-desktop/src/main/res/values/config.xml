@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 不同的分辨率， ripple时间不同， 该参数作为一个补偿 -->
+    <integer name="extra_ripple_duration">100</integer>
+
+    <bool name="config_replaceAppWithInitializeName">true</bool>
+
+    <bool name="config_replaceAppWithInitializeName_HS">false</bool>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="touch_sounds"
+        android:title="触摸提示音"
+        android:summary="开启/关闭触摸屏幕时的提示音"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

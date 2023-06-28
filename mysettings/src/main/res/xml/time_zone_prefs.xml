@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="preference_category_time_zone"
+        android:title="选择时区">
+    </PreferenceCategory>
+</PreferenceScreen>

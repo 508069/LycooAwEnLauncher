@@ -1,0 +1,16 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LycooAwEnLauncher/LycooAwEnLauncher/LycooCowLauncher_LC_ALTO/src/main/res/layout/activity_input_sel.xml" value="0.3099647266313933" />
+        <entry key="..\:/LycooAwEnLauncher/LycooAwEnLauncher/LycooCowLauncher_LC_ALTO/src/main/res/layout/status_bar.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

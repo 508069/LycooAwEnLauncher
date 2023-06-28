@@ -1,0 +1,7 @@
+include ':lycoo-commons'
+include ':lycoo-desktop'
+include ':LycooCowLauncher_IKTV_WeiTuo_V1'
+rootProject.name='LycooAwEnLauncher'
+include ':testdemo'
+include ':mysettings'
+include ':lycooSetting'

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="wifi_ip_address"
+        android:title="IP 地址"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="wifi_mac_address"
+        android:title="WLANMAC 地址"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="ethernet_mac_address"
+        android:title="以太网物理地址"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="serial_number"
+        android:title="序列号"
+        android:summary="未知"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="up_time"
+        android:title="已开机时间"
+        android:summary="未知"/>
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        app:allowDividerBelow="true"
+        android:key="auto_time"
+        android:title="自动确定日期和时间"
+        android:defaultValue="true" />
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="date"
+        android:title="设置日期"
+        android:enabled="false"/>
+
+    <Preference
+        app:allowDividerBelow="true"
+        android:key="time"
+        android:title="设置时间"
+        android:enabled="false"/>
+
+    <PreferenceScreen
+        app:allowDividerBelow="true"
+        android:key="timezone"
+        android:title="选择时区"
+        android:summary="GMT-8:00"
+        android:fragment="com.example.mysettings.settingsDateTime.fragment.TimeZoneFragment">
+
+<!--        <intent android:action="android.intent.action.MAIN"-->
+<!--            android:targetPackage="@string/additional_system_zone"-->
+<!--            android:targetClass="@string/additional_system_zone_picker" />-->
+
+    </PreferenceScreen>
+
+    <SwitchPreference
+        app:allowDividerBelow="true"
+        android:key="24 hour"
+        android:title="使用24小时制" />
+</PreferenceScreen>

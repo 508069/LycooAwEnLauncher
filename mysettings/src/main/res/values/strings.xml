@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MySettings</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="touch_sounds_key">touch_sounds</string>
+    <string name="salutatory_title">启用欢迎词</string>
+
+    <string name="category_app">应用程序信息</string>
+    <string name="pref_app_name">应用名称</string>
+    <string name="pref_app_name_summary">查看应用名称</string>
+    <string name="pref_app_package">应用包名</string>
+    <string name="pref_app_package_summary">查看应用包名</string>
+    <string name="pref_app_version">应用版本</string>
+    <string name="pref_app_version_summary">查看应用版本</string>
+    <string name="pref_app_clear_data">清除数据</string>
+    <string name="pref_app_clear_data_summary">清除应用数据</string>
+    <string name="pref_app_uninstall">卸载应用</string>
+    <string name="pref_app_uninstall_summary">卸载应用程序</string>
+    <string name="device_info_default">未知</string>
+
+    <string name="zone_list_menu_sort_alphabetically">Sort alphabetically</string>
+    <string name="zone_list_menu_sort_by_timezone">Sort by time zone</string>
+
+    <string name="connect">已连接</string>
+    <string name="display_settings">显示</string>
+    <string name="brightness">亮度</string>
+    <string name="global_setting">全局设置</string>
+    <string name="global_arc_menu">显示全局设置</string>
+    <string name="global_arc_menu_summary">设置全局设置按钮是否显示，设置后重启生效</string>
+    <string name="global_floated_back">显示浮动返回按钮</string>
+    <string name="global_floated_back_summary">设置浮动返回按钮是否显示，设置后重启生效</string>
+    <string name="global_boot_video">开机视频</string>
+    <string name="global_boot_video_summary">设置开机视频是否显示，设置后启动生效</string>
+    <string name="global_dual_screen">屏幕同步</string>
+    <string name="global_dual_screen_summary">设置屏幕同步是否显示，设置后重启生效</string>
+    <string name="hdmi_setting">HDMI设置</string>
+    <string name="hdmi_output_mode">HDMI输出模式</string>
+    <string name="hdmi_output_mode_summary">设置默认的HDMI输出模式</string>
+    <string name="hdmi_width_scale">HDMI输出宽度缩放</string>
+    <string name="hdmi_height_scale">HDMI输出高度缩放</string>
+    <string name="language">语言</string>
+    <string name="inputMethod">键盘</string>
+    <string name="virtual_keyboard_category">虚拟键盘</string>
+    <string name="zh">中文</string>
+    <string name="en">英文</string>
+    <string name="storage_internal_title">内部存储结构</string>
+    <string name="localdata_reset">清除本地存储</string>
+    <string name="localdata_reset_summary">连接点击三次清除所有本地数据</string>
+    <string name="storage_external_title">外部存储结构</string>
+</resources>

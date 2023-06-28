@@ -1,0 +1,31 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="hdmi_output_mode_entries">
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>HDMI 480P</item> <!-- HDMI 480P -->
+        <item>HDMI 576P</item> <!-- HDMI 576P -->
+        <item>HDMI 720P 50Hz</item> <!-- HDMI 720P 50Hz -->
+        <item>HDMI 720P 60Hz</item> <!-- HDMI 720P 60Hz -->
+    </string-array>
+    <string-array name="hdmi_output_mode_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <item>402</item> <!-- HDMI 480P -->
+        <item>403</item> <!-- HDMI 576P -->
+        <item>404</item> <!-- HDMI 720P 50Hz -->
+        <item>405</item> <!-- HDMI 720P 60Hz -->
+    </string-array>
+</resources>

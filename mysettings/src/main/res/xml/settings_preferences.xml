@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="无线和网络"
+        app:allowDividerBelow="false">
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="wifi_setting"
+            android:title="WIFI"
+            android:summary="" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="设备"
+        app:allowDividerBelow="false">
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="display_setting"
+            android:title="显示"
+            android:summary="" />
+
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="sounds_setting"
+            android:title="声音设置"
+            android:summary="设置音量和其他声音" />
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="app_setting"
+            android:title="应用"
+            android:summary="应用设置"
+            android:fragment="com.example.mysettings.settingsApp.fragment.AppListFragment"/>
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="storage"
+            android:title="存储"
+            android:summary="" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="个人"
+        app:allowDividerBelow="false">
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="language_setting"
+            android:title="语言和输入法"
+            android:summary="" />
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="reset_setting"
+            android:title="备份和重置"
+            android:summary=""
+            android:fragment="com.example.mysettings.settingsResetDevice.fragment.ResetDeviceFragment"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="系统"
+        app:allowDividerBelow="false">
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="date_setting"
+            android:title="日期和时间"
+            android:summary=""
+            android:fragment="com.example.mysettings.settingsDateTime.fragment.DateTimeSettings"/>
+        <Preference
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            android:key="device_info"
+            android:title="关于设备"
+            android:summary=""
+            android:fragment="com.example.mysettings.settingsDeviceInfo.fragment.DeviceInfoFragment"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
+<!-- {"WIFI", "声音设置", "应用", "存储", "内存",
+            "语言和输入法", "备份和重置", "日期和时间", "关于设备"} -->
+
+<!-- {null, "设置音量和其他声音", "应用设置", "已使用。。。",
+            "平均内存量为", null, null, null, null} -->
