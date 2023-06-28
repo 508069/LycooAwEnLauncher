@@ -2,6 +2,7 @@ package com.lycoo.commons.app;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import com.lycoo.commons.base.BaseDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -11,7 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.lycoo.commons.R;
-import com.lycoo.commons.base.BaseDialog;
+
 import com.lycoo.commons.domain.CommonConstants;
 
 /**

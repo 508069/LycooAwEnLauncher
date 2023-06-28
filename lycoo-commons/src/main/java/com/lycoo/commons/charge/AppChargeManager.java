@@ -1,14 +1,12 @@
 package com.lycoo.commons.charge;
 
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
 import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Message;
 
-import com.lycoo.commons.util.LogUtils;
-
 import java.io.IOException;
-import java.text.ParseException;
 
 import io.reactivex.disposables.CompositeDisposable;
 import okhttp3.OkHttpClient;

@@ -2,19 +2,19 @@ package com.lycoo.desktop.ui;
 
 import android.content.Context;
 import android.graphics.Color;
+import com.lycoo.commons.helper.RxBus;
+import com.lycoo.commons.widget.CustomHorizontalScrollView;
+import com.lycoo.commons.widget.MetroViewBorderHandler;
+import com.lycoo.desktop.helper.DesktopEvent;
+import com.lycoo.desktop.helper.DesktopItemManager;
 import android.util.SparseArray;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.lycoo.commons.helper.RxBus;
 import com.lycoo.commons.util.CollectionUtils;
 import com.lycoo.commons.util.LogUtils;
-import com.lycoo.commons.widget.CustomHorizontalScrollView;
-import com.lycoo.commons.widget.MetroViewBorderHandler;
 import com.lycoo.desktop.bean.DesktopItemInfo;
-import com.lycoo.desktop.helper.DesktopEvent;
-import com.lycoo.desktop.helper.DesktopItemManager;
 
 import java.util.List;
 

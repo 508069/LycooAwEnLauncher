@@ -1,20 +1,6 @@
 package com.lycoo.commons.update;
 
 import android.content.Context;
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Environment;
-import android.view.Gravity;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import androidx.annotation.NonNull;
-
-import com.lycoo.commons.R;
 import com.lycoo.commons.base.BaseDialog;
 import com.lycoo.commons.entity.AppUpdate;
 import com.lycoo.commons.helper.StyleManager;
@@ -29,6 +15,20 @@ import com.lycoo.commons.util.MD5Utils;
 import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.commons.view.NumberProgressBar;
 import com.lycoo.commons.widget.CustomToast;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Environment;
+import android.view.Gravity;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+
+import com.lycoo.commons.R;
 
 import java.io.File;
 

@@ -2,9 +2,9 @@ package com.lycoo.desktop.dialog;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
+import com.lycoo.desktop.helper.DockItemManager;
 
 import com.lycoo.commons.util.LogUtils;
-import com.lycoo.desktop.helper.DockItemManager;
 
 import java.util.List;
 

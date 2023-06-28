@@ -1,10 +1,23 @@
 package com.example.mysettings.settingWifi.activity;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceManager;
+import androidx.preference.PreferenceScreen;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import com.example.mysettings.settingWifi.adapter.WifiListAdapter;
+import com.example.mysettings.settingWifi.preference.WifiInfoPreference;
+import com.lycoo.commons.util.LogUtils;
 import android.net.NetworkInfo;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiConfiguration;
@@ -22,20 +35,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SwitchCompat;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceManager;
-import androidx.preference.PreferenceScreen;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mysettings.R;
-import com.example.mysettings.settingWifi.adapter.WifiListAdapter;
-import com.example.mysettings.settingWifi.preference.WifiInfoPreference;
-import com.lycoo.commons.util.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +61,7 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wifi);
         init();
-        scanWifi();
+//        scanWifi();
         connectWifi();
 
     }
@@ -71,7 +72,7 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
             @Override
             public void onItemClick(boolean isConnect, View view, int position, WifiInfo isConnectInfo, ScanResult scanResult) {
                 if (isConnect) {
-                    Toast.makeText(getApplicationContext(), "Wifi is Connected.......", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Wifi is Connected.......", Toast.LENGTH_SHORT).show();
                     showWifiInfoDialog(isConnectInfo);
                 } else {
                     showWifiConnectDialog(scanResult);
@@ -143,6 +144,7 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
 
     /**
      * wifi取消保存
+     *
      * @param isConnectInfo
      */
     private void isConnecttoWifi(WifiInfo isConnectInfo) {
@@ -169,7 +171,7 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
      * 连接WiFi
      *
      * @param scanResult
-     * @param password      Create by HonceH by 23/5/6
+     * @param password   Create by HonceH by 23/5/6
      */
     private void connectToWifi(ScanResult scanResult, String password) {
 
@@ -186,17 +188,28 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
     private void init() {
         wifiManager = (WifiManager) mContext.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         dialogView = LayoutInflater.from(this).inflate(R.layout.wifiinfo, null);
+        results=new ArrayList<>();
         wifiInfoPreference = (WifiInfoPreference) getSupportFragmentManager().findFragmentById(R.id.wifi_info_fragment);
         preferenceScreen = wifiInfoPreference.findPreference("wifi-info");
         wifiEnable = (SwitchCompat) findViewById(R.id.switch_wifi);
         emptyWifi = (TextView) findViewById(R.id.tv_empty_wifi);
-        wifiView =(RecyclerView) findViewById(R.id.wifi_view);
+        wifiView = (RecyclerView) findViewById(R.id.wifi_view);
         setwifiEnable();
         wifiView.setLayoutManager(new LinearLayoutManager(this));
         if (wifiManager.isWifiEnabled() == false) {
-            Toast.makeText(getApplicationContext(), "Wifi is disabled... We need to enable it", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Wifi is disabled... We need to enable it", Toast.LENGTH_SHORT).show();
         }
         mWifiList = new ArrayList<>();
+        registerWifiReceiver();
+    }
+
+    /**
+     * 注册WiFi监听器
+     */
+    private void registerWifiReceiver() {
+        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.NETWORK_STATE_CHANGED_ACTION));
+        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION));
     }
 
     /**
@@ -220,14 +233,14 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
                 if (isChecked) {
                     // 打开WiFi并显示列表
                     wifiManager.setWifiEnabled(true);
-                    scanWifi();
+//                    scanWifi();
                     wifiView.setVisibility(View.VISIBLE);
                     emptyWifi.setVisibility(View.GONE);
-                    if (mWifiList.size() == 0) {
-                        LogUtils.info(TAG, "wifi扫描个数为空");
-                    } else {
-                        LogUtils.info(TAG, "wifi扫描个数 ：" + mWifiList.size());
-                    }
+//                    if (mWifiList.size() == 0) {
+//                        LogUtils.info(TAG, "wifi扫描个数为空");
+//                    } else {
+//                        LogUtils.info(TAG, "wifi扫描个数 ：" + mWifiList.size());
+//                    }
                     wifiListAdapter.notifyDataSetChanged();
                 } else {
                     // 关闭WiFi并隐藏列表
@@ -282,12 +295,8 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
      * Create by HonceH by 23/5/6
      */
     private void scanWifi() {
-        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-        registerReceiver(wifiReceiver, new IntentFilter(WifiManager.NETWORK_STATE_CHANGED_ACTION));
-        wifiManager.startScan();
-        LogUtils.info(TAG, "开始扫描WiFi...");
-        Toast.makeText(this, "Scanning WiFi ...", Toast.LENGTH_SHORT).show();
-
+        boolean b = wifiManager.startScan();
+        LogUtils.info(TAG, "开始扫描WiFi..." + b);
     }
 
     /**
@@ -306,25 +315,31 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
             switch (action) {
                 case WifiManager.NETWORK_STATE_CHANGED_ACTION:
                     NetworkInfo networkInfo = intent.getParcelableExtra(WifiManager.EXTRA_NETWORK_INFO);
-                    if (networkInfo != null ) {
+                    if (networkInfo != null) {
                         NetworkInfo.State state = networkInfo.getState();
                         if (state == NetworkInfo.State.CONNECTED) {
                             // 网络已连接
                             // TODO: 实现连接成功后的逻辑
                             Toast.makeText(mContext, "wifi连接成功", Toast.LENGTH_SHORT).show();
-                        } else if (state == NetworkInfo.State.DISCONNECTED) {
-                            // 网络已断开
-                            Toast.makeText(mContext, "wifi连接断开", Toast.LENGTH_SHORT).show();
                         }
+//                        else if (state == NetworkInfo.State.DISCONNECTED && wifiManager.getWifiState() == WifiManager.WIFI_STATE_DISABLED) {
+//                            // 网络已断开
+////                            mWifiList.clear();
+//                            Toast.makeText(mContext, "wifi连接断开", Toast.LENGTH_SHORT).show();
+//                        } else if(state == NetworkInfo.State.CONNECTING && wifiManager.getWifiState() == WifiManager.WIFI_STATE_ENABLED ){
+//                            Toast.makeText(mContext, "wifi正在连接", Toast.LENGTH_SHORT).show();
+//                        }
 
                         wifiListAdapter.notifyDataSetChanged();
 
                     }
                     break;
                 case WifiManager.SCAN_RESULTS_AVAILABLE_ACTION:
-                    if (wifiManager.getWifiState() == WifiManager.WIFI_STATE_ENABLED) {
+                    if (wifiManager.getWifiState() == WifiManager.WIFI_STATE_ENABLED || wifiManager.getWifiState() == WifiManager.WIFI_STATE_ENABLING) {
                         // 清空列表
+                        Toast.makeText(mContext, "扫描更新WiFi", Toast.LENGTH_SHORT).show();
                         mWifiList.clear();
+                        results.clear();
                         results = wifiManager.getScanResults();
                         for (ScanResult scanResult : results) {
                             if (scanResult.SSID.length() >= 1) {
@@ -335,8 +350,23 @@ public class WifiActivity extends AppCompatActivity implements PreferenceManager
                         // 更新列表
                         wifiListAdapter.notifyDataSetChanged();
                         wifiView.requestFocus();
-                        break;
                     }
+                    break;
+                case WifiManager.WIFI_STATE_CHANGED_ACTION:
+                    int wifiState = intent.getIntExtra(WifiManager.EXTRA_WIFI_STATE, WifiManager.WIFI_STATE_UNKNOWN);
+                    switch (wifiState) {
+                        case WifiManager.WIFI_STATE_ENABLED:
+                            scanWifi();
+                            LogUtils.info(TAG,"WIFI开启");
+                            // WiFi已开启，执行相应操作
+                            break;
+                        case WifiManager.WIFI_STATE_DISABLED:
+                            mWifiList.clear();
+                            LogUtils.info(TAG,"WIFI关闭");
+                            // WiFi已关闭，执行相应操作
+                            break;
+                    }
+                    break;
             }
 
         }

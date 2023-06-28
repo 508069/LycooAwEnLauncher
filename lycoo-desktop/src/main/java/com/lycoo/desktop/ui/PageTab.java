@@ -3,6 +3,8 @@ package com.lycoo.desktop.ui;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
+import com.lycoo.commons.helper.StyleManager;
+import com.lycoo.commons.widget.CustomViewPageScroller;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
@@ -17,9 +19,8 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.ViewUtils;
-import com.lycoo.commons.widget.CustomViewPageScroller;
+
 import com.lycoo.desktop.R;
 import com.lycoo.desktop.adapter.CustomPageAdapter;
 

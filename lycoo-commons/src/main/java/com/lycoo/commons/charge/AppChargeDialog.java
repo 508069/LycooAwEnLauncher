@@ -1,9 +1,9 @@
 package com.lycoo.commons.charge;
 
 import android.content.Context;
+import com.lycoo.commons.base.BaseDialog;
+import com.lycoo.commons.domain.CommonConstants;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
@@ -13,8 +13,6 @@ import android.webkit.WebViewClient;
 import androidx.annotation.NonNull;
 
 import com.lycoo.commons.R;
-import com.lycoo.commons.base.BaseDialog;
-import com.lycoo.commons.domain.CommonConstants;
 
 import io.reactivex.disposables.CompositeDisposable;
 

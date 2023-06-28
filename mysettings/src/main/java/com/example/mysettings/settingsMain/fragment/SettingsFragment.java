@@ -1,6 +1,11 @@
 package com.example.mysettings.settingsMain.fragment;
 
 import android.content.Intent;
+import com.example.mysettings.settingDisplay.activity.DisplaySettingActivity;
+import com.example.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity;
+import com.example.mysettings.settingStorage.activity.StorageSettingActivity;
+import com.example.mysettings.settingWifi.activity.WifiActivity;
+import com.example.mysettings.settingsSound.activity.SoundSettingsActivity;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -8,11 +13,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.example.mysettings.R;
-import com.example.mysettings.settingDisplay.activity.DisplaySettingActivity;
-import com.example.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity;
-import com.example.mysettings.settingStorage.activity.StorageSettingActivity;
-import com.example.mysettings.settingWifi.activity.WifiActivity;
-import com.example.mysettings.settingsSound.activity.SoundSettingsActivity;
 
 public class SettingsFragment extends PreferenceFragmentCompat {
     private Preference mSoundPref;

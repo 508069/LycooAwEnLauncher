@@ -3,8 +3,8 @@ package com.lycoo.commons.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import com.lycoo.commons.domain.CommonConstants;
+
 import com.lycoo.commons.screensaver.ScreensaverConstants;
 
 /**

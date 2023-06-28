@@ -3,6 +3,7 @@ package com.example.mysettings.settingStorage.preference;
 
 import android.content.Context;
 import android.graphics.Color;
+import com.lycoo.commons.util.LogUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.ProgressBar;
@@ -13,7 +14,6 @@ import androidx.preference.PreferenceViewHolder;
 
 import com.example.mysettings.R;
 import com.example.mysettings.settingStorage.util.DeviceStorage;
-import com.lycoo.commons.util.LogUtils;
 
 
 import java.util.Locale;

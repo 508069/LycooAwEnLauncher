@@ -6,6 +6,8 @@ import static android.content.Context.WIFI_SERVICE;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 
+import com.example.mysettings.utils.IpUtil;
+import com.lycoo.commons.util.DeviceUtils;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
@@ -23,8 +25,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.example.mysettings.R;
-import com.example.mysettings.utils.IpUtil;
-import com.lycoo.commons.util.DeviceUtils;
 
 import java.lang.ref.WeakReference;
 import java.net.NetworkInterface;

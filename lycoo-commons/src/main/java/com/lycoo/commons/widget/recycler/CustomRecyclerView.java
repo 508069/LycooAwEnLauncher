@@ -1,6 +1,9 @@
 package com.lycoo.commons.widget.recycler;
 
 import android.content.Context;
+import com.lycoo.commons.util.CalculateUtils;
+import com.lycoo.commons.util.LogUtils;
+import com.lycoo.commons.util.ViewUtils;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -12,9 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.lycoo.commons.util.CalculateUtils;
-import com.lycoo.commons.util.LogUtils;
-import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.commons.widget.LoadFooter;
 import com.lycoo.commons.widget.RefreshHeader;
 

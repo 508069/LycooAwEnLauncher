@@ -1,8 +1,7 @@
 package com.lycoo.commons.http;
 
-import android.text.TextUtils;
-
 import com.lycoo.commons.util.LogUtils;
+import android.text.TextUtils;
 
 import org.apache.commons.lang3.StringUtils;
 

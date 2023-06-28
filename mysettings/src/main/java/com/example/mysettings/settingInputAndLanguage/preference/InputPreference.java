@@ -1,6 +1,7 @@
 package com.example.mysettings.settingInputAndLanguage.preference;
 
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.inputmethod.InputMethodInfo;
@@ -12,7 +13,6 @@ import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
 
 import com.example.mysettings.R;
-import com.lycoo.commons.util.LogUtils;
 
 
 import java.util.List;

@@ -1,6 +1,8 @@
 package com.lycoo.desktop.helper;
 
 import android.content.Context;
+import com.lycoo.desktop.base.BaseBean;
+import com.lycoo.desktop.base.DesktopService;
 import android.text.TextUtils;
 
 import com.lycoo.commons.domain.CommonConstants;
@@ -9,8 +11,6 @@ import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.CollectionUtils;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
-import com.lycoo.desktop.base.BaseBean;
-import com.lycoo.desktop.base.DesktopService;
 import com.lycoo.desktop.bean.CommonDesktopItemInfo;
 import com.lycoo.desktop.bean.ConfigAppItemInfo;
 import com.lycoo.desktop.bean.ContainerItemInfo;
@@ -27,7 +27,6 @@ import com.lycoo.desktop.config.DockConstants;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 

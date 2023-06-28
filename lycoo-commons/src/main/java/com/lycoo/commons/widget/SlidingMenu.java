@@ -2,6 +2,8 @@ package com.lycoo.commons.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import com.lycoo.commons.util.LogUtils;
+import com.lycoo.commons.util.ResourceUtils;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
@@ -9,8 +11,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.HorizontalScrollView;
 
-import com.lycoo.commons.util.LogUtils;
-import com.lycoo.commons.util.ResourceUtils;
 import com.nineoldandroids.view.ViewHelper;
 
 /**

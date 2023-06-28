@@ -1,10 +1,9 @@
 package com.lycoo.desktop.adapter;
 
+import com.lycoo.desktop.ui.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-
-import com.lycoo.desktop.ui.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;

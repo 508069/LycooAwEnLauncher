@@ -4,10 +4,10 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
-import com.lycoo.commons.screensaver.ScreensaverConstants;
 import com.lycoo.commons.entity.ScreensaverImage;
 import com.lycoo.commons.util.CollectionUtils;
+
+import com.lycoo.commons.screensaver.ScreensaverConstants;
 
 import java.util.ArrayList;
 import java.util.List;

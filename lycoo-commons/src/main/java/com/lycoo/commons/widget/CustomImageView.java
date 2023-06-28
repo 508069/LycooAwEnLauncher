@@ -2,12 +2,11 @@ package com.lycoo.commons.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
-
-import com.lycoo.commons.util.LogUtils;
 
 /**
  * 自定义ImageView， 加速内存回收

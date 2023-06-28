@@ -1,11 +1,10 @@
 package com.lycoo.commons;
 
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.util.Base64;
-
-import com.lycoo.commons.util.LogUtils;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

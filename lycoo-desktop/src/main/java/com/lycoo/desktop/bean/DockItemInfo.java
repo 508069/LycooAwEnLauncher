@@ -1,8 +1,5 @@
 package com.lycoo.desktop.bean;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
 import com.lycoo.desktop.base.BaseBean;
 
 /**

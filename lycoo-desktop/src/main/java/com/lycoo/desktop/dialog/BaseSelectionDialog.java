@@ -3,6 +3,8 @@ package com.lycoo.desktop.dialog;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import com.lycoo.commons.base.BaseDialog;
+import com.lycoo.commons.helper.StyleManager;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
@@ -11,8 +13,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.lycoo.commons.base.BaseDialog;
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.desktop.R;
 import com.lycoo.desktop.R2;
 

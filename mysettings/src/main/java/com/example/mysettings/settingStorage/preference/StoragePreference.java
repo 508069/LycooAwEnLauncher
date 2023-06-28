@@ -4,7 +4,11 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import com.lycoo.commons.helper.DeviceManager;
+import com.lycoo.commons.helper.SystemPropertiesManager;
+import com.lycoo.commons.util.LogUtils;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.preference.Preference;
@@ -14,21 +18,23 @@ import androidx.preference.PreferenceScreen;
 
 import com.example.mysettings.R;
 import com.example.mysettings.settingStorage.util.DeviceStorage;
-import com.lycoo.commons.helper.DeviceManager;
-import com.lycoo.commons.util.LogUtils;
 
 
 import java.util.List;
 
-public class StoragePreference extends PreferenceFragmentCompat {
+public class StoragePreference extends PreferenceFragmentCompat implements
+        Preference.OnPreferenceClickListener {
     private static final String TAG = StoragePreference.class.getSimpleName();
     private MediaBroadcastReceiver mMediaBroadcastReceiver;
     private PreferenceScreen mPreferenceCategory_setting;
     private PreferenceCategory mPreferenceCategory_external;
+    private Preference mPreference_localdata;
     private final String KEY_STORAGE_EXTERNAL = "storage_external";
     private final String KEY_STORAGE_SETTING = "storage_setting";
+    private final String KEY_LOCAL_DATA_RESET = "localdata_reset";
     private List<String> mountedDevices;
     private boolean has_external;
+    private int mDataResetHitCountdown = 3;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -40,6 +46,8 @@ public class StoragePreference extends PreferenceFragmentCompat {
 
     private void init() {
         mPreferenceCategory_setting = findPreference(KEY_STORAGE_SETTING);
+        mPreference_localdata = findPreference(KEY_LOCAL_DATA_RESET);
+        mPreference_localdata.setOnPreferenceClickListener(this);
 //        mPreferenceCategory_external = findPreference(KEY_STORAGE_EXTERNAL);
         mPreferenceCategory_external = new PreferenceCategory(getContext());
         mPreferenceCategory_external.setTitle("外部存储结构");
@@ -91,6 +99,23 @@ public class StoragePreference extends PreferenceFragmentCompat {
         filter.addDataScheme("file");
         mMediaBroadcastReceiver = new MediaBroadcastReceiver();
         getContext().registerReceiver(mMediaBroadcastReceiver, filter);
+    }
+
+    @Override
+    public boolean onPreferenceClick(Preference preference) {
+        if (preference.equals(mPreference_localdata)) {
+            if (mDataResetHitCountdown > 0) {
+                mDataResetHitCountdown--;
+            } else {
+                if (SystemPropertiesManager.getInstance(this.getContext()).getInt("sys.lycoo.localdata_reset", 0) == 1) {
+                    Toast.makeText(getActivity(), R.string.local_reset_completed, Toast.LENGTH_LONG).show();
+                } else {
+                    SystemPropertiesManager.getInstance(this.getContext()).set("sys.lycoo.localdata_reset", "1");
+                    Toast.makeText(getActivity(), R.string.local_reset_doing, Toast.LENGTH_LONG).show();
+                }
+            }
+        }
+        return true;
     }
 
     /**

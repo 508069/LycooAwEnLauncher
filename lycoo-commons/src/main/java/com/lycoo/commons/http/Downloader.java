@@ -1,11 +1,10 @@
 package com.lycoo.commons.http;
 
 import android.content.Context;
-import android.os.StatFs;
-import android.text.TextUtils;
-
 import com.lycoo.commons.domain.ErrorCode;
 import com.lycoo.commons.util.LogUtils;
+import android.os.StatFs;
+import android.text.TextUtils;
 
 import java.io.File;
 

@@ -2,6 +2,7 @@ package com.lycoo.desktop.base;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
+import com.lycoo.commons.helper.StyleManager;
 import android.os.Bundle;
 import android.widget.GridView;
 import android.widget.ImageButton;
@@ -10,7 +11,6 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.desktop.R;

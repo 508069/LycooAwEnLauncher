@@ -1,10 +1,9 @@
 package com.lycoo.commons.http;
 
 import android.content.Context;
-import android.text.TextUtils;
-
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
+import android.text.TextUtils;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

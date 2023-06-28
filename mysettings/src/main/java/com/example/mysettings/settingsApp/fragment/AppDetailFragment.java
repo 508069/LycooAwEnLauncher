@@ -14,8 +14,6 @@ import androidx.preference.PreferenceFragmentCompat;
 import com.example.mysettings.settingsApp.manager.DataCleanManager;
 import com.example.mysettings.R;
 
-import java.io.File;
-
 public class AppDetailFragment extends PreferenceFragmentCompat {
 
     private ApplicationInfo mApp;

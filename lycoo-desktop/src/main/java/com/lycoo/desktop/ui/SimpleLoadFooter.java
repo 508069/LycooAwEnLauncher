@@ -1,6 +1,8 @@
 package com.lycoo.desktop.ui;
 
 import android.content.Context;
+import com.lycoo.commons.helper.StyleManager;
+import com.lycoo.commons.widget.BaseLoadFooter;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -10,12 +12,11 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.commons.view.LoadingIndicatorView;
 import com.lycoo.commons.view.ProgressStyle;
 import com.lycoo.commons.view.SimpleViewSwitcher;
-import com.lycoo.commons.widget.BaseLoadFooter;
+
 import com.lycoo.desktop.R;
 
 /**

@@ -304,8 +304,8 @@ public class CircleLayoutManager extends ViewPagerLayoutManager {
             flipRotate = false;
             gravity = BOTTOM;
             zAlignment = LEFT_ON_TOP;
-            maxVisibleItemCount = ViewPagerLayoutManager.DETERMINE_BY_MAX_AND_MIN;
-            distanceToBottom = ViewPagerLayoutManager.INVALID_SIZE;
+            maxVisibleItemCount = DETERMINE_BY_MAX_AND_MIN;
+            distanceToBottom = INVALID_SIZE;
         }
 
         public Builder setRadius(int radius) {

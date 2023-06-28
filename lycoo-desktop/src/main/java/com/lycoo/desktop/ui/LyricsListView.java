@@ -2,8 +2,6 @@ package com.lycoo.desktop.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.os.Handler;
-import android.os.Message;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
@@ -19,12 +17,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.lycoo.commons.util.LogUtils;
 import com.lycoo.desktop.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class LyricsListView extends LinearLayout {
 

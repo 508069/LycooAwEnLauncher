@@ -3,6 +3,7 @@ package com.lycoo.commons.app;
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Typeface;
+import com.lycoo.commons.helper.PrivateStorageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Window;
@@ -13,7 +14,6 @@ import android.widget.Toast;
 
 import com.lycoo.commons.R;
 import com.lycoo.commons.domain.CommonConstants;
-import com.lycoo.commons.helper.PrivateStorageManager;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.SystemPropertiesUtils;
 import com.lycoo.commons.widget.CustomToast;

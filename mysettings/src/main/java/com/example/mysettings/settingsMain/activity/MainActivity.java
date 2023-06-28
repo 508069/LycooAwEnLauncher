@@ -8,8 +8,9 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import com.example.mysettings.R;
+
 import com.example.mysettings.settingsMain.fragment.SettingsFragment;
+import com.example.mysettings.R;
 
 
 public class MainActivity extends AppCompatActivity{

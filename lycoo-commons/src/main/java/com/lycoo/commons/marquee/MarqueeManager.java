@@ -2,16 +2,16 @@ package com.lycoo.commons.marquee;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
 import com.lycoo.commons.base.BaseService;
 import com.lycoo.commons.domain.CommonConstants;
 import com.lycoo.commons.entity.MarqueeInfo;
 import com.lycoo.commons.entity.MarqueeResponse;
 import com.lycoo.commons.helper.RxBus;
-import com.lycoo.commons.http.HttpHelper;
 import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
+
+import com.lycoo.commons.http.HttpHelper;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

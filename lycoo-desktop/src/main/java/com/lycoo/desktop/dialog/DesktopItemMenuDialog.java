@@ -1,13 +1,14 @@
 package com.lycoo.desktop.dialog;
 
 import android.content.Context;
+import com.lycoo.commons.util.ViewUtils;
+import com.lycoo.desktop.helper.DesktopItemManager;
 
 import com.lycoo.commons.util.LogUtils;
-import com.lycoo.commons.util.ViewUtils;
+
 import com.lycoo.desktop.R;
 import com.lycoo.desktop.bean.DesktopItemInfo;
 import com.lycoo.desktop.config.DesktopConstants;
-import com.lycoo.desktop.helper.DesktopItemManager;
 
 import org.apache.commons.lang3.StringUtils;
 

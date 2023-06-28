@@ -4,7 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
+import com.lycoo.commons.helper.RxBus;
+import com.lycoo.desktop.ui.DesktopItem;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Environment;
@@ -13,7 +14,6 @@ import android.util.SparseArray;
 import android.widget.Toast;
 
 import com.lycoo.commons.domain.CommonConstants;
-import com.lycoo.commons.helper.RxBus;
 import com.lycoo.commons.http.DownloadCallBack;
 import com.lycoo.commons.http.DownloadManager;
 import com.lycoo.commons.http.DownloadTask;
@@ -33,7 +33,6 @@ import com.lycoo.desktop.db.DesktopDbManager;
 import com.lycoo.desktop.qipo.QipoConstants;
 import com.lycoo.desktop.qipo.QipoManager;
 import com.lycoo.desktop.qiyi.QiyiManager;
-import com.lycoo.desktop.ui.DesktopItem;
 import com.lycoo.desktop.ui.DesktopItemProgressBar;
 
 import org.apache.commons.lang3.StringUtils;

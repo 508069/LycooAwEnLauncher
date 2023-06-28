@@ -2,6 +2,8 @@ package com.lycoo.desktop.dialog;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import com.lycoo.commons.base.BaseDialog;
+import com.lycoo.commons.helper.StyleManager;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.Window;
@@ -9,8 +11,6 @@ import android.view.WindowManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.lycoo.commons.base.BaseDialog;
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.desktop.R;
 import com.lycoo.desktop.R2;

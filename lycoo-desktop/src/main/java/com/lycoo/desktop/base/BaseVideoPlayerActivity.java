@@ -3,6 +3,7 @@ package com.lycoo.desktop.base;
 import android.annotation.SuppressLint;
 import android.app.Instrumentation;
 import android.content.Context;
+import com.lycoo.commons.helper.StyleManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -23,7 +24,6 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.ViewUtils;

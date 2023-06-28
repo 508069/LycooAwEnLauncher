@@ -4,8 +4,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import com.lycoo.commons.util.LogUtils;
+
 import com.lycoo.desktop.bean.DesktopContainerItemInfo;
 import com.lycoo.desktop.bean.DesktopItemInfo;
 import com.lycoo.desktop.bean.DockItemInfo;

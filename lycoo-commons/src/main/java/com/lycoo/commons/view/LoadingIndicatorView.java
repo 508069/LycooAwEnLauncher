@@ -18,35 +18,6 @@ import com.lycoo.commons.R;
 import com.lycoo.commons.indicator.BallPulseIndicator;
 import com.lycoo.commons.indicator.Indicator;
 
-import static com.lycoo.commons.view.ProgressStyle.BallBeat;
-import static com.lycoo.commons.view.ProgressStyle.BallClipRotate;
-import static com.lycoo.commons.view.ProgressStyle.BallClipRotateMultiple;
-import static com.lycoo.commons.view.ProgressStyle.BallClipRotatePulse;
-import static com.lycoo.commons.view.ProgressStyle.BallGridBeat;
-import static com.lycoo.commons.view.ProgressStyle.BallGridPulse;
-import static com.lycoo.commons.view.ProgressStyle.BallPulse;
-import static com.lycoo.commons.view.ProgressStyle.BallPulseRise;
-import static com.lycoo.commons.view.ProgressStyle.BallPulseSync;
-import static com.lycoo.commons.view.ProgressStyle.BallRotate;
-import static com.lycoo.commons.view.ProgressStyle.BallScale;
-import static com.lycoo.commons.view.ProgressStyle.BallScaleMultiple;
-import static com.lycoo.commons.view.ProgressStyle.BallScaleRipple;
-import static com.lycoo.commons.view.ProgressStyle.BallScaleRippleMultiple;
-import static com.lycoo.commons.view.ProgressStyle.BallSpinFadeLoader;
-import static com.lycoo.commons.view.ProgressStyle.BallTrianglePath;
-import static com.lycoo.commons.view.ProgressStyle.BallZigZag;
-import static com.lycoo.commons.view.ProgressStyle.BallZigZagDeflect;
-import static com.lycoo.commons.view.ProgressStyle.CubeTransition;
-import static com.lycoo.commons.view.ProgressStyle.LineScale;
-import static com.lycoo.commons.view.ProgressStyle.LineScaleParty;
-import static com.lycoo.commons.view.ProgressStyle.LineScalePulseOut;
-import static com.lycoo.commons.view.ProgressStyle.LineScalePulseOutRapid;
-import static com.lycoo.commons.view.ProgressStyle.LineSpinFadeLoader;
-import static com.lycoo.commons.view.ProgressStyle.Pacman;
-import static com.lycoo.commons.view.ProgressStyle.SemiCircleSpin;
-import static com.lycoo.commons.view.ProgressStyle.SquareSpin;
-import static com.lycoo.commons.view.ProgressStyle.TriangleSkewSpin;
-
 
 public class LoadingIndicatorView extends View {
 
@@ -454,88 +425,88 @@ public class LoadingIndicatorView extends View {
     public void setIndicatorId(int indicatorId) {
         String indicatorName = null;
         switch (indicatorId) {
-            case BallPulse:
+            case ProgressStyle.BallPulse:
                 indicatorName = "BallPulseIndicator";
                 break;
-            case BallGridPulse:
+            case ProgressStyle.BallGridPulse:
                 indicatorName = "BallGridPulseIndicator";
                 break;
-            case BallClipRotate:
+            case ProgressStyle.BallClipRotate:
                 indicatorName = "BallClipRotateIndicator";
                 break;
-            case BallClipRotatePulse:
+            case ProgressStyle.BallClipRotatePulse:
                 indicatorName = "BallClipRotatePulseIndicator";
                 break;
-            case SquareSpin:
+            case ProgressStyle.SquareSpin:
                 indicatorName = "SquareSpinIndicator";
                 break;
-            case BallClipRotateMultiple:
+            case ProgressStyle.BallClipRotateMultiple:
                 indicatorName = "BallClipRotateMultipleIndicator";
                 break;
-            case BallPulseRise:
+            case ProgressStyle.BallPulseRise:
                 indicatorName = "BallPulseRiseIndicator";
                 break;
-            case BallRotate:
+            case ProgressStyle.BallRotate:
                 indicatorName = "BallRotateIndicator";
                 break;
-            case CubeTransition:
+            case ProgressStyle.CubeTransition:
                 indicatorName = "CubeTransitionIndicator";
                 break;
-            case BallZigZag:
+            case ProgressStyle.BallZigZag:
                 indicatorName = "BallZigZagIndicator";
                 break;
-            case BallZigZagDeflect:
+            case ProgressStyle.BallZigZagDeflect:
                 indicatorName = "BallZigZagDeflectIndicator";
                 break;
-            case BallTrianglePath:
+            case ProgressStyle.BallTrianglePath:
                 indicatorName = "BallTrianglePathIndicator";
                 break;
-            case BallScale:
+            case ProgressStyle.BallScale:
                 indicatorName = "BallScaleIndicator";
                 break;
-            case LineScale:
+            case ProgressStyle.LineScale:
                 indicatorName = "LineScaleIndicator";
                 break;
-            case LineScaleParty:
+            case ProgressStyle.LineScaleParty:
                 indicatorName = "LineScalePartyIndicator";
                 break;
-            case BallScaleMultiple:
+            case ProgressStyle.BallScaleMultiple:
                 indicatorName = "BallScaleMultipleIndicator";
                 break;
-            case BallPulseSync:
+            case ProgressStyle.BallPulseSync:
                 indicatorName = "BallPulseSyncIndicator";
                 break;
-            case BallBeat:
+            case ProgressStyle.BallBeat:
                 indicatorName = "BallBeatIndicator";
                 break;
-            case LineScalePulseOut:
+            case ProgressStyle.LineScalePulseOut:
                 indicatorName = "LineScalePulseOutIndicator";
                 break;
-            case LineScalePulseOutRapid:
+            case ProgressStyle.LineScalePulseOutRapid:
                 indicatorName = "LineScalePulseOutRapidIndicator";
                 break;
-            case BallScaleRipple:
+            case ProgressStyle.BallScaleRipple:
                 indicatorName = "BallScaleRippleIndicator";
                 break;
-            case BallScaleRippleMultiple:
+            case ProgressStyle.BallScaleRippleMultiple:
                 indicatorName = "BallScaleRippleMultipleIndicator";
                 break;
-            case BallSpinFadeLoader:
+            case ProgressStyle.BallSpinFadeLoader:
                 indicatorName = "BallSpinFadeLoaderIndicator";
                 break;
-            case LineSpinFadeLoader:
+            case ProgressStyle.LineSpinFadeLoader:
                 indicatorName = "LineSpinFadeLoaderIndicator";
                 break;
-            case TriangleSkewSpin:
+            case ProgressStyle.TriangleSkewSpin:
                 indicatorName = "TriangleSkewSpinIndicator";
                 break;
-            case Pacman:
+            case ProgressStyle.Pacman:
                 indicatorName = "PacmanIndicator";
                 break;
-            case BallGridBeat:
+            case ProgressStyle.BallGridBeat:
                 indicatorName = "BallGridBeatIndicator";
                 break;
-            case SemiCircleSpin:
+            case ProgressStyle.SemiCircleSpin:
                 indicatorName = "SemiCircleSpinIndicator";
                 break;
             default:

@@ -14,8 +14,6 @@ import androidx.preference.PreferenceScreen;
 
 import com.example.mysettings.R;
 
-import java.time.ZoneId;
-import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

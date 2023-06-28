@@ -1,12 +1,11 @@
 package com.lycoo.commons;
 
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
+import com.rockchip.keily.jni.ReadPrivate;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.text.TextUtils;
-
-import com.lycoo.commons.util.LogUtils;
-import com.rockchip.keily.jni.ReadPrivate;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

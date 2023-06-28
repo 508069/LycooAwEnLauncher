@@ -2,6 +2,8 @@ package com.lycoo.desktop.dialog;
 
 import android.content.Context;
 import android.content.Intent;
+import com.lycoo.commons.base.BaseDialog;
+import com.lycoo.commons.helper.StyleManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Window;
@@ -12,8 +14,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.lycoo.commons.base.BaseDialog;
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.desktop.R;
 import com.lycoo.desktop.R2;
 import com.lycoo.desktop.boosj.BoosjConstants;

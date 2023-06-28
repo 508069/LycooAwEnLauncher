@@ -2,16 +2,16 @@ package com.lycoo.desktop.dialog;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
-import android.widget.Toast;
-
 import com.lycoo.commons.helper.RxBus;
 import com.lycoo.commons.util.ApplicationUtils;
-import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.ViewUtils;
-import com.lycoo.commons.widget.CustomToast;
-import com.lycoo.desktop.R;
 import com.lycoo.desktop.helper.DesktopEvent;
 import com.lycoo.desktop.helper.DesktopItemManager;
+import android.widget.Toast;
+
+import com.lycoo.commons.util.LogUtils;
+import com.lycoo.commons.widget.CustomToast;
+import com.lycoo.desktop.R;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableOnSubscribe;

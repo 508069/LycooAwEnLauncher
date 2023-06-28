@@ -22,7 +22,7 @@ import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.MD5Utils;
 import com.lycoo.commons.widget.CustomToast;
 import com.lycoo.desktop.R;
-import com.lycoo.desktop.bean.DesktopItemInfo;
+
 import com.lycoo.desktop.bean.DockItemInfo;
 import com.lycoo.desktop.boosj.BoosjConstants;
 import com.lycoo.desktop.config.DesktopConstants;
@@ -30,9 +30,6 @@ import com.lycoo.desktop.config.DockConstants;
 import com.lycoo.desktop.db.DesktopDbManager;
 import com.lycoo.desktop.qipo.QipoConstants;
 import com.lycoo.desktop.qipo.QipoManager;
-import com.lycoo.desktop.qiyi.QiyiManager;
-import com.lycoo.desktop.ui.DesktopItem;
-import com.lycoo.desktop.ui.DesktopItemProgressBar;
 import com.lycoo.desktop.ui.DockItem;
 import com.lycoo.desktop.ui.DockItemProgressBar;
 

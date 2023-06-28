@@ -1,23 +1,18 @@
 package com.example.mysettings.settingsDeviceInfo.fragment;
 
-import android.content.Context;
-import android.content.Intent;
+import com.lycoo.commons.util.SystemPropertiesUtils;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
 import android.os.UserManager;
 import android.util.Log;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.example.mysettings.R;
-import com.lycoo.commons.util.DeviceUtils;
-import com.lycoo.commons.util.SystemPropertiesUtils;
 
 import java.io.BufferedReader;
 import java.io.File;

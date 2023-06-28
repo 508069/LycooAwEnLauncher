@@ -3,9 +3,6 @@ package com.lycoo.commons.screensaver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.NetworkInfo;
-import android.os.CountDownTimer;
-
 import com.lycoo.commons.base.BaseService;
 import com.lycoo.commons.db.CommonDbManager;
 import com.lycoo.commons.domain.CommonConstants;
@@ -17,6 +14,8 @@ import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.CollectionUtils;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
+import android.net.NetworkInfo;
+import android.os.CountDownTimer;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,12 +1,11 @@
 package com.lycoo.commons.http;
 
 import android.content.Context;
-import android.text.TextUtils;
-
 import com.lycoo.commons.entity.CheckResult;
 import com.lycoo.commons.util.CollectionUtils;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
+import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

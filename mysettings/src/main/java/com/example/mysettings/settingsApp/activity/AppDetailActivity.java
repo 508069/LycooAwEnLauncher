@@ -1,11 +1,10 @@
 package com.example.mysettings.settingsApp.activity;
 
 import android.content.pm.ApplicationInfo;
+import com.example.mysettings.settingsApp.fragment.AppDetailFragment;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.mysettings.settingsApp.fragment.AppDetailFragment;
 
 
 public class AppDetailActivity extends AppCompatActivity {

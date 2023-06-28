@@ -1,10 +1,6 @@
 package com.lycoo.desktop.qiyi;
 
 import android.content.Context;
-import android.net.NetworkInfo;
-import android.os.Bundle;
-import android.os.Parcelable;
-
 import com.lycoo.commons.util.CollectionUtils;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.SystemPropertiesUtils;
@@ -12,6 +8,10 @@ import com.lycoo.desktop.bean.DesktopItemInfo;
 import com.lycoo.desktop.config.DesktopConstants;
 import com.lycoo.desktop.helper.DesktopItemManager;
 import com.lycoo.desktop.ui.DesktopItem;
+import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.os.Parcelable;
+
 import com.qiyi.tv.client.ConnectionListener;
 import com.qiyi.tv.client.QiyiClient;
 import com.qiyi.tv.client.Result;

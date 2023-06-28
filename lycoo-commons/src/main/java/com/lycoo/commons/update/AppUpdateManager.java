@@ -1,9 +1,6 @@
 package com.lycoo.commons.update;
 
 import android.content.Context;
-import android.net.NetworkInfo;
-
-import com.lycoo.commons.R;
 import com.lycoo.commons.base.BaseService;
 import com.lycoo.commons.domain.CommonConstants;
 import com.lycoo.commons.entity.AppUpdate;
@@ -12,6 +9,9 @@ import com.lycoo.commons.http.HttpHelper;
 import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.DeviceUtils;
 import com.lycoo.commons.util.LogUtils;
+import android.net.NetworkInfo;
+
+import com.lycoo.commons.R;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;

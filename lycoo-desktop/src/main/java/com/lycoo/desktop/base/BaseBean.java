@@ -3,8 +3,6 @@ package com.lycoo.desktop.base;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.lycoo.desktop.bean.DesktopItemInfo;
-
 public class BaseBean implements Parcelable {
 
 

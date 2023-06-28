@@ -3,6 +3,7 @@ package com.lycoo.commons.widget;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
+import com.lycoo.commons.helper.StyleManager;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +13,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lycoo.commons.R;
-import com.lycoo.commons.helper.StyleManager;
 
 /**
  * Created by lancy on 2018/4/14

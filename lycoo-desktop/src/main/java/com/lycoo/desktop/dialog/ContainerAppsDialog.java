@@ -2,11 +2,11 @@ package com.lycoo.desktop.dialog;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
-
 import com.lycoo.commons.helper.RxBus;
-import com.lycoo.commons.util.LogUtils;
 import com.lycoo.desktop.helper.DesktopEvent;
 import com.lycoo.desktop.helper.DesktopItemManager;
+
+import com.lycoo.commons.util.LogUtils;
 
 import org.apache.commons.lang3.StringUtils;
 

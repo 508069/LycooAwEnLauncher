@@ -2,6 +2,7 @@ package com.example.mysettings.settingInputAndLanguage.preference;
 
 import android.content.Context;
 import android.content.Intent;
+import com.lycoo.commons.util.LogUtils;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -13,7 +14,6 @@ import androidx.preference.PreferenceScreen;
 
 import com.example.mysettings.R;
 import com.example.mysettings.settingInputAndLanguage.Bean.CurrentLocale;
-import com.lycoo.commons.util.LogUtils;
 
 
 import java.lang.reflect.InvocationTargetException;

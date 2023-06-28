@@ -1,7 +1,6 @@
 package com.lycoo.desktop.qipo;
 
 import android.content.Context;
-
 import com.lycoo.desktop.base.DesktopService;
 
 import io.reactivex.Observable;

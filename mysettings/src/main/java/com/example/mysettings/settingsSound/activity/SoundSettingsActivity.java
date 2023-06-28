@@ -5,8 +5,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mysettings.R;
 import com.example.mysettings.settingsSound.fragment.SoundSettingsFragment;
+import com.example.mysettings.R;
 
 
 public class SoundSettingsActivity extends AppCompatActivity {

@@ -2,6 +2,7 @@ package com.lycoo.commons.base;
 
 import android.app.Dialog;
 import android.content.Context;
+import com.lycoo.commons.helper.RxBus;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -10,7 +11,6 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 
 import com.lycoo.commons.event.CommonEvent;
-import com.lycoo.commons.helper.RxBus;
 import com.lycoo.commons.util.LogUtils;
 
 /**

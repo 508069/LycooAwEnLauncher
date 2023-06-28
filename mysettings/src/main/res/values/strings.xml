@@ -72,4 +72,6 @@
     <string name="localdata_reset">清除本地存储</string>
     <string name="localdata_reset_summary">连接点击三次清除所有本地数据</string>
     <string name="storage_external_title">外部存储结构</string>
+    <string name="local_reset_completed">已经清除完成，如需再次清除请重启再试</string>
+    <string name="local_reset_doing">清除完成，5秒后请手动重启</string>
 </resources>

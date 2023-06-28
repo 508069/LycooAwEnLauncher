@@ -2,13 +2,13 @@ package com.lycoo.desktop.dialog;
 
 import android.content.Context;
 import android.content.pm.ResolveInfo;
+import com.lycoo.desktop.helper.DesktopItemManager;
 import android.util.SparseArray;
 
 import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.ResourceUtils;
 import com.lycoo.desktop.R;
-import com.lycoo.desktop.helper.DesktopItemManager;
 
 import java.util.List;
 

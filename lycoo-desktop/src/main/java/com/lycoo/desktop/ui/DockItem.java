@@ -4,6 +4,8 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import com.lycoo.commons.helper.StyleManager;
+import com.lycoo.desktop.helper.DockItemManager;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -15,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Priority;
-import com.lycoo.commons.helper.StyleManager;
+
 import com.lycoo.commons.util.ApplicationUtils;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.util.ResourceUtils;
@@ -26,7 +28,7 @@ import com.lycoo.desktop.R;
 import com.lycoo.desktop.bean.DockItemInfo;
 import com.lycoo.desktop.config.DesktopConstants;
 import com.lycoo.desktop.dialog.DockItemMenuDialog;
-import com.lycoo.desktop.helper.DockItemManager;
+
 import com.lycoo.desktop.helper.GlideApp;
 
 import org.apache.commons.lang3.StringUtils;

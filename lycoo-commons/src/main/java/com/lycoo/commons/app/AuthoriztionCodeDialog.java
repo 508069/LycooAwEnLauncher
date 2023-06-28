@@ -1,11 +1,11 @@
 package com.lycoo.commons.app;
 
 import android.content.Context;
+import com.lycoo.commons.helper.PrivateStorageManager;
 import android.widget.Toast;
 
 import com.lycoo.commons.R;
 import com.lycoo.commons.domain.CommonConstants;
-import com.lycoo.commons.helper.PrivateStorageManager;
 
 import java.util.regex.Pattern;
 

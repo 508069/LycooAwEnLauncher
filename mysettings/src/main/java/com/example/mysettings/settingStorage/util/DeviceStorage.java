@@ -3,11 +3,10 @@ package com.example.mysettings.settingStorage.util;
 
 import android.app.usage.StorageStatsManager;
 import android.content.Context;
+import com.lycoo.commons.helper.DeviceManager;
 import android.os.StatFs;
 import android.os.storage.StorageManager;
 import android.util.Log;
-
-import com.lycoo.commons.helper.DeviceManager;
 
 import java.io.File;
 import java.io.IOException;

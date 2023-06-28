@@ -2,6 +2,9 @@ package com.example.mysettings.settingDisplay.preference;
 
 import android.content.ContentResolver;
 import android.content.Intent;
+import com.lycoo.commons.helper.SystemPropertiesManager;
+import com.lycoo.commons.util.LogUtils;
+import com.lycoo.commons.util.SystemPropertiesUtils;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,9 +19,6 @@ import androidx.preference.SeekBarPreference;
 import androidx.preference.SwitchPreference;
 
 import com.example.mysettings.R;
-import com.lycoo.commons.helper.SystemPropertiesManager;
-import com.lycoo.commons.util.LogUtils;
-import com.lycoo.commons.util.SystemPropertiesUtils;
 
 
 import java.io.File;

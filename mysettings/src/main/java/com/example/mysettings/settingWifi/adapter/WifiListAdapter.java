@@ -1,6 +1,7 @@
 package com.example.mysettings.settingWifi.adapter;
 
 import android.graphics.Color;
+import com.lycoo.commons.util.LogUtils;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
@@ -14,7 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mysettings.R;
-import com.lycoo.commons.util.LogUtils;
 
 
 import java.util.List;

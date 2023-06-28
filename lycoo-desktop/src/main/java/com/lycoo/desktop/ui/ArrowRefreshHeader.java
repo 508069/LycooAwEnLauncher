@@ -3,6 +3,8 @@ package com.lycoo.desktop.ui;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
+import com.lycoo.commons.helper.StyleManager;
+import com.lycoo.commons.helper.WeakHandler;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -18,8 +20,6 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.lycoo.commons.helper.StyleManager;
-import com.lycoo.commons.helper.WeakHandler;
 import com.lycoo.commons.util.LogUtils;
 import com.lycoo.commons.view.LoadingIndicatorView;
 import com.lycoo.commons.view.ProgressStyle;

@@ -2,6 +2,8 @@ package com.lycoo.commons.screensaver;
 
 import android.app.Activity;
 import android.content.Context;
+import com.lycoo.commons.util.CollectionUtils;
+import com.lycoo.commons.util.LogUtils;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -9,8 +11,6 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.lycoo.commons.R;
-import com.lycoo.commons.util.CollectionUtils;
-import com.lycoo.commons.util.LogUtils;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

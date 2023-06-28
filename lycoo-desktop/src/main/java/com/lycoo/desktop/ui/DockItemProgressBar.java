@@ -2,6 +2,7 @@ package com.lycoo.desktop.ui;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import com.lycoo.commons.helper.StyleManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -10,7 +11,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.commons.view.RingProgressBar;
 import com.lycoo.desktop.R;

@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import com.lycoo.commons.helper.StyleManager;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
@@ -14,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.lycoo.commons.helper.StyleManager;
 import com.lycoo.commons.util.ViewUtils;
 import com.lycoo.commons.view.RippleView;
 import com.lycoo.desktop.R;

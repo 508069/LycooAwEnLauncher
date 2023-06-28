@@ -1,12 +1,12 @@
 package com.lycoo.desktop;
 
 import android.content.Context;
+import com.lycoo.commons.util.LogUtils;
+import com.lycoo.desktop.db.DesktopDbManager;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.lycoo.commons.util.LogUtils;
 import com.lycoo.desktop.config.DesktopConstants;
-import com.lycoo.desktop.db.DesktopDbManager;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

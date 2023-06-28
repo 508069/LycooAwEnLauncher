@@ -3,6 +3,8 @@ package com.example.mysettings.settingsSound.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import com.example.mysettings.settingsSound.activity.TouchSoundActivity;
+import com.lycoo.commons.util.SystemPropertiesUtils;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,8 +16,6 @@ import androidx.preference.SeekBarPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.example.mysettings.R;
-import com.example.mysettings.settingsSound.activity.TouchSoundActivity;
-import com.lycoo.commons.util.SystemPropertiesUtils;
 
 public class SoundSettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener
         ,Preference.OnPreferenceClickListener{
