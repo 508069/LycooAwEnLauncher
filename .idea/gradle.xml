@@ -8,16 +8,13 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-7.2-all/260hg96vuh6ex27h9vo47iv4d/gradle-7.2" />
-        <option name="gradleJvm" value="corretto-11" />
+        <option name="gradleJvm" value="Embedded JDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/LycooCowLauncher_IKTV_WeiTuo_V1" />
             <option value="$PROJECT_DIR$/lycoo-commons" />
             <option value="$PROJECT_DIR$/lycoo-desktop" />
-            <option value="$PROJECT_DIR$/lycooSetting" />
             <option value="$PROJECT_DIR$/mysettings" />
-            <option value="$PROJECT_DIR$/testdemo" />
           </set>
         </option>
       </GradleProjectSettings>
