@@ -14,7 +14,7 @@
         app:allowDividerBelow="true"
         android:key="status_info"
         android:title="状态信息"
-        android:fragment="com.example.mysettings.settingsDeviceInfo.fragment.StatusFragment"/>
+        android:fragment="com.mono.mysettings.settingsDeviceInfo.fragment.StatusFragment"/>
 
     <Preference
         app:allowDividerBelow="true"

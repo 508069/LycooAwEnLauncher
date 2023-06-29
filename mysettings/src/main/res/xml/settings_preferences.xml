@@ -36,7 +36,7 @@
             android:key="app_setting"
             android:title="应用"
             android:summary="应用设置"
-            android:fragment="com.example.mysettings.settingsApp.fragment.AppListFragment"/>
+            android:fragment="com.mono.mysettings.settingsApp.fragment.AppListFragment"/>
         <Preference
             app:allowDividerAbove="true"
             app:allowDividerBelow="true"
@@ -61,7 +61,7 @@
             android:key="reset_setting"
             android:title="备份和重置"
             android:summary=""
-            android:fragment="com.example.mysettings.settingsResetDevice.fragment.ResetDeviceFragment"/>
+            android:fragment="com.mono.mysettings.settingsResetDevice.fragment.ResetDeviceFragment"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -73,14 +73,14 @@
             android:key="date_setting"
             android:title="日期和时间"
             android:summary=""
-            android:fragment="com.example.mysettings.settingsDateTime.fragment.DateTimeSettings"/>
+            android:fragment="com.mono.mysettings.settingsDateTime.fragment.DateTimeSettings"/>
         <Preference
             app:allowDividerAbove="true"
             app:allowDividerBelow="true"
             android:key="device_info"
             android:title="关于设备"
             android:summary=""
-            android:fragment="com.example.mysettings.settingsDeviceInfo.fragment.DeviceInfoFragment"/>
+            android:fragment="com.mono.mysettings.settingsDeviceInfo.fragment.DeviceInfoFragment"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

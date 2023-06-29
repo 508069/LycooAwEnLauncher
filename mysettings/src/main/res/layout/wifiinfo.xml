@@ -5,7 +5,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
     <fragment
-        android:name="com.example.mysettings.settingWifi.preference.WifiInfoPreference"
+        android:name="com.mono.mysettings.settingWifi.preference.WifiInfoPreference"
         android:id="@+id/wifi_info_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"/>
     <fragment
-        android:name="com.example.mysettings.settingDisplay.preference.DisplaySetting"
+        android:name="com.mono.mysettings.settingDisplay.preference.DisplaySetting"
         android:id="@+id/display_fragment"
         android:layout_width="0dp"
         android:layout_weight="7"

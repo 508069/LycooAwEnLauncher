@@ -44,29 +44,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LycooAwEnLauncher" >
         <activity
-            android:name=".settingInputAndLanguage.activity.InputAndLanguageActivity"
+            android:name="com.mono.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity"
             android:exported="false"/>
         <activity
-            android:name=".settingDisplay.activity.DisplaySettingActivity"
+            android:name="com.mono.mysettings.settingDisplay.activity.DisplaySettingActivity"
             android:exported="false"/>
         <activity
-            android:name=".settingStorage.activity.StorageSettingActivity"
+            android:name="com.mono.mysettings.settingStorage.activity.StorageSettingActivity"
             android:exported="false"/>
         <activity
-            android:name=".settingWifi.activity.WifiActivity"
+            android:name="com.mono.mysettings.settingWifi.activity.WifiActivity"
             android:exported="false"/>
         <activity
-            android:name=".settingsApp.activity.AppDetailActivity"
+            android:name="com.mono.mysettings.settingsApp.activity.AppDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".settingsSound.activity.SoundSettingsActivity"
+            android:name="com.mono.mysettings.settingsSound.activity.SoundSettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".settingsSound.activity.TouchSoundActivity"
+            android:name="com.mono.mysettings.settingsSound.activity.TouchSoundActivity"
             android:exported="false" />
 
         <activity
-            android:name=".settingsMain.activity.MainActivity"
+            android:name="com.mono.mysettings.settingsMain.activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name" >
             <intent-filter>
@@ -77,7 +77,7 @@
         </activity>
 
         <receiver
-            android:name=".settingsResetDevice.receiver.MyDeviceAdminReceiver"
+            android:name="com.mono.mysettings.settingsResetDevice.receiver.MyDeviceAdminReceiver"
             android:description="@string/app_name"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_DEVICE_ADMIN">

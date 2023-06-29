@@ -6,13 +6,13 @@
         <Preference
             android:key="language"
             android:title="@string/language"
-            android:fragment="com.example.mysettings.settingInputAndLanguage.preference.LanguagePreference"/>
+            android:fragment="com.mono.mysettings.settingInputAndLanguage.preference.LanguagePreference"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/inputMethod">
         <Preference
             android:title="@string/virtual_keyboard_category"
-            android:fragment="com.example.mysettings.settingInputAndLanguage.preference.InputPreference"/>
+            android:fragment="com.mono.mysettings.settingInputAndLanguage.preference.InputPreference"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

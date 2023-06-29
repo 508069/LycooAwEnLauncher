@@ -8,7 +8,7 @@
             android:title="@string/localdata_reset"
             android:summary="@string/localdata_reset_summary"/>
     </PreferenceCategory>
-    <com.example.mysettings.settingStorage.preference.StorageVolumePreference
+    <com.mono.mysettings.settingStorage.preference.StorageVolumePreference
         android:key="storage_volume"
         android:title="6.32GB"
         android:summary="共32GB"/>
