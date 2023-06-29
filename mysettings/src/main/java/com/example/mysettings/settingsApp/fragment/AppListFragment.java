@@ -45,7 +45,6 @@ public class AppListFragment extends PreferenceFragmentCompat {
     @Override
     public void onResume() {
         super.onResume();
-        Toast.makeText(getContext(), "正在加载，请稍等", Toast.LENGTH_SHORT).show();
         inItAppList();
     }
 
