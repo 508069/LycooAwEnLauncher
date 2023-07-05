@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
 MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\2a14034fca4ef0df8c9138d731707143\transformed\jetified-viewbinding-4.2.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\adf806caaa08e8d7a2ec019bccd30454\transformed\navigation-ui-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-22:12
+MERGED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-22:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\f2692ff777d23cdcb5052d4756b5a96e\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.preference:preference:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\f947ca2fa4a761c4bec1c84e13fee1ec\transformed\preference-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\3a99a5d729f95adfeaa4a3783d2c072c\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -59,131 +59,131 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.g
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\bade43c79810110c3102bd35780c3efa\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\54280e4676fe6aeac48edcad4b2619c2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\e56b24c89de2175eda601c086dc35c4a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
 	package
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:4:5-37
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.PACKAGE_USAGE_STATS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:5-7:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:5-7:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:7:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:7:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:22-75
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:6:22-75
 uses-permission#android.permission.SET_TIME
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:5-9:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:5-9:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:9:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:9:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:22-64
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.SET_TIME_ZONE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:5-11:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:5-11:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:11:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:11:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:22-69
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:10:22-69
 uses-permission#android.permission.FACTORY_RESET
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:5-72
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:5-72
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:22-69
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:12:22-69
 uses-permission#android.permission.MANAGE_DEVICE_ADMINS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:5-14:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:5-14:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:14:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:14:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:22-76
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:5-80
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:22-77
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:15:22-77
 uses-permission#android.permission.REBOOT
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:5-17:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:5-17:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:17:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:17:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:22-62
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:16:22-62
 uses-permission#android.permission.CLEAR_APP_USER_DATA
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:5-19:43
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:5-19:43
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:19:5-40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:19:5-40
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:22-75
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:18:22-75
 uses-permission#android.permission.GET_PACKAGE_SIZE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:5-75
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:5-75
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:22-72
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:20:22-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:5-79
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:22-76
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:5-76
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:5-76
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:22-73
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:22:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:5-76
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:22-73
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:23:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:5-79
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:22-76
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.INTERNET
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:5-67
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:22-64
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:25:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:5-80
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:5-80
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:22-77
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:26:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:5-81
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:22-78
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:27:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:5-75
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:5-75
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:22-72
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:28:22-72
 uses-permission#android.permission.GET_TASKS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:5-68
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:5-68
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:22-65
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:29:22-65
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:30:5-32:47
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:30:5-32:47
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:32:9-44
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:32:9-44
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:31:9-57
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:31:9-57
 uses-permission#android.permission.CHANGE_CONFIGURATION
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:33:5-35:47
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:33:5-35:47
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:35:9-44
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:35:9-44
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:34:9-63
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:34:9-63
 uses-permission#android.permission.WRITE_SECURE_SETTINGS
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:36:5-38:47
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:36:5-38:47
 	tools:ignore
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:38:9-44
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:38:9-44
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:37:9-64
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:37:9-64
 application
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:40:5-92:19
-MERGED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-20:19
-MERGED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-20:19
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:40:5-92:19
+MERGED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-20:19
+MERGED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-20:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\f2692ff777d23cdcb5052d4756b5a96e\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\f2692ff777d23cdcb5052d4756b5a96e\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\3a99a5d729f95adfeaa4a3783d2c072c\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -203,111 +203,111 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Administrator\.gra
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Administrator\.gradle\caches\transforms-3\9ed1396807356ba4fe1f073ff5df3ec3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:44:9-35
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:44:9-35
 	android:label
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:43:9-41
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:43:9-41
 	android:icon
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:42:9-43
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:42:9-43
 	android:allowBackup
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:41:9-35
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:41:9-35
 	android:theme
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:45:9-55
-activity#com.example.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:46:9-48:39
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:45:9-55
+activity#com.mono.mysettings.settingInputAndLanguage.activity.InputAndLanguageActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:48:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:47:13-86
-activity#com.example.mysettings.settingDisplay.activity.DisplaySettingActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:49:9-51:39
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:47:13-105
+activity#com.mono.mysettings.settingDisplay.activity.DisplaySettingActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:49:9-51:39
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:51:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:50:13-75
-activity#com.example.mysettings.settingStorage.activity.StorageSettingActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:52:9-54:39
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:50:13-94
+activity#com.mono.mysettings.settingStorage.activity.StorageSettingActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:52:9-54:39
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:54:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:53:13-75
-activity#com.example.mysettings.settingWifi.activity.WifiActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:55:9-57:39
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:53:13-94
+activity#com.mono.mysettings.settingWifi.activity.WifiActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:55:9-57:39
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:57:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:56:13-62
-activity#com.example.mysettings.settingsApp.activity.AppDetailActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:58:9-60:40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:56:13-81
+activity#com.mono.mysettings.settingsApp.activity.AppDetailActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:58:9-60:40
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:60:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:59:13-67
-activity#com.example.mysettings.settingsSound.activity.SoundSettingsActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:61:9-63:40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:59:13-86
+activity#com.mono.mysettings.settingsSound.activity.SoundSettingsActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:63:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:62:13-73
-activity#com.example.mysettings.settingsSound.activity.TouchSoundActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:64:9-66:40
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:62:13-92
+activity#com.mono.mysettings.settingsSound.activity.TouchSoundActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:64:9-66:40
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:66:13-37
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:65:13-70
-activity#com.example.mysettings.settingsMain.activity.MainActivity
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:68:9-77:20
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:65:13-89
+activity#com.mono.mysettings.settingsMain.activity.MainActivity
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:68:9-77:20
 	android:label
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:71:13-45
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:71:13-45
 	android:exported
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:70:13-36
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:69:13-63
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:69:13-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:72:13-76:29
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:72:13-76:29
 action#android.intent.action.MAIN
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:17-69
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:17-69
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:25-66
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:73:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:17-77
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:17-77
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:27-74
-receiver#com.example.mysettings.settingsResetDevice.receiver.MyDeviceAdminReceiver
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:79:9-91:20
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:75:27-74
+receiver#com.mono.mysettings.settingsResetDevice.receiver.MyDeviceAdminReceiver
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:79:9-91:20
 	android:label
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:82:13-45
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:82:13-45
 	android:permission
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:83:13-70
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:83:13-70
 	android:description
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:81:13-51
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:81:13-51
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:80:13-79
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:80:13-98
 meta-data#android.app.device_admin
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:84:13-86:65
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:84:13-86:65
 	android:resource
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:86:17-62
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:86:17-62
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:85:17-56
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:85:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_DISABLED+action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:87:13-90:29
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:87:13-90:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:17-82
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:17-82
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:25-79
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:88:25-79
 action#android.app.action.DEVICE_ADMIN_DISABLED
-ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:17-83
+ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:17-83
 	android:name
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:25-80
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml:89:25-80
 uses-sdk
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\2a14034fca4ef0df8c9138d731707143\transformed\jetified-viewbinding-4.2.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\2a14034fca4ef0df8c9138d731707143\transformed\jetified-viewbinding-4.2.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\adf806caaa08e8d7a2ec019bccd30454\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\adf806caaa08e8d7a2ec019bccd30454\transformed\navigation-ui-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
-MERGED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\f2692ff777d23cdcb5052d4756b5a96e\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\f2692ff777d23cdcb5052d4756b5a96e\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.preference:preference:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\f947ca2fa4a761c4bec1c84e13fee1ec\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -412,30 +412,30 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\t
 MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\54280e4676fe6aeac48edcad4b2619c2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\e56b24c89de2175eda601c086dc35c4a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\e56b24c89de2175eda601c086dc35c4a\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		ADDED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
-		INJECTED from D:\try\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		ADDED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
+		INJECTED from D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\mysettings\src\main\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-78
+ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-78
 	android:name
-		ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-75
+		ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-75
 uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
-ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-84
+ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-84
 	android:name
-		ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-81
+		ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-81
 activity#com.lycoo.commons.screensaver.ScreensaverImageActivity
-ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-19:86
+ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-19:86
 	android:theme
-		ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-83
+		ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-83
 	android:name
-		ADDED from [:lycoo-commons] D:\try\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-82
+		ADDED from [:lycoo-commons] D:\android\AndroidStudioProjects\mysetting\LycooAwEnLauncher\lycoo-commons\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-82
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\8140ee090f2eeff0a74f2380a633454e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\b61691514a2fc32ca2546f6d7bffaffd\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

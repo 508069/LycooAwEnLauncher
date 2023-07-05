@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
+                {
+                    "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "820"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1393"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\fbe5789a6890f2f612343c62c5d6890e\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -35,25 +54,6 @@
                         "startOffsets": "1398,1473,1584,1673,1774,1881,1988,2087,2190,2278,2402,2504,2606,2722,2824,2938,3066,3182,3304,3440,3560,3694,3814,3926,4141,4258,4382,4512,4634,4772,4906,5022",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1468,1579,1668,1769,1876,1983,2082,2185,2273,2397,2499,2601,2717,2819,2933,3061,3177,3299,3435,3555,3689,3809,3921,4047,4253,4377,4507,4629,4767,4901,5017,5137"
-                    }
-                },
-                {
-                    "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "806"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1393"
                     }
                 }
             ]

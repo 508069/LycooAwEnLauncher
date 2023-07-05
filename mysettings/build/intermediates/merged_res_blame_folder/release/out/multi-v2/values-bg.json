@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\adf806caaa08e8d7a2ec019bccd30454\\transformed\\navigation-ui-2.4.1\\res\\values-bg\\values-bg.xml",

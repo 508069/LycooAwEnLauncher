@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\fbe5789a6890f2f612343c62c5d6890e\\transformed\\appcompat-1.4.1\\res\\values-pl\\values-pl.xml",

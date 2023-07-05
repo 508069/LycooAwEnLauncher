@@ -1,34 +1,34 @@
 [
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\sound_settings_activity.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\sound_settings_activity.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\wifiinfo.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\wifiinfo.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\inputandlanguage.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\inputandlanguage.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_display.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_display.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\list_item_wifi.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\list_item_wifi.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\list_item_wifi.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\list_item_wifi.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_wifi.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_wifi.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_wifi.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_wifi.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\wifiinfo.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\wifiinfo.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\inputandlanguage.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\inputandlanguage.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\storage_volume.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\storage_volume.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\sound_settings_activity.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\sound_settings_activity.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\try\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\storage_volume.xml",
-        "source": "D:\\try\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\storage_volume.xml"
+        "merged": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_display.xml",
+        "source": "D:\\android\\AndroidStudioProjects\\mysetting\\LycooAwEnLauncher\\mysettings\\src\\main\\res\\layout\\activity_display.xml"
     }
 ]

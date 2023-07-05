@@ -2,7 +2,9 @@ package com.mono.mysettings.settingInputAndLanguage.preference;
 
 import android.content.Context;
 import android.content.Intent;
+
 import com.lycoo.commons.util.LogUtils;
+
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -32,7 +34,10 @@ public class LanguagePreference extends PreferenceFragmentCompat {
     private static final String TAG = LanguagePreference.class.getSimpleName();
     private static final String KEY_LANGUAGE_PREFERENCE = "language_preference";
     private PreferenceScreen language_preference;
-    private List<CurrentLocale> currentLocaleList;
+    private static List<CurrentLocale> currentLocaleList;
+
+
+
 
     public LanguagePreference() {
     }
@@ -47,12 +52,13 @@ public class LanguagePreference extends PreferenceFragmentCompat {
     private void setListLanguage() {
         // 获取当前系统的语言
         Locale systemLocale = Locale.getDefault();
-
+        LogUtils.info(TAG, "当前系统语言 ： " + systemLocale.toString());
         for (int i = 0; i < currentLocaleList.size(); i++) {
             CurrentLocale currentLocale = currentLocaleList.get(i);
             Preference preference = new Preference(getContext());
             preference.setTitle(currentLocale.getName());
-            if (systemLocale.equals(currentLocale.getLocale())) {
+//            LogUtils.info(TAG, "系统语言 ： " + currentLocale.toString());
+            if (currentLocale.getLocale() == systemLocale) {
                 preference.setSummary("当前");
             }
             preference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -75,8 +81,10 @@ public class LanguagePreference extends PreferenceFragmentCompat {
                 this.getContext().startActivity(intent);
             }
         }
-        currentLocaleList = new ArrayList<>();
-        getLocales();
+        if (currentLocaleList == null) {
+            currentLocaleList = new ArrayList<>();
+            getLocales();
+        }
         language_preference = findPreference(KEY_LANGUAGE_PREFERENCE);
 
     }
